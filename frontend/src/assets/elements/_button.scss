@@ -1,0 +1,31 @@
+button {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  padding: .5em 2em;
+  font-size: 16px;
+  cursor: pointer; 
+}
+
+.button-small {
+  font-size: 14px;
+  background: linear-gradient(rgb(167, 72, 255), rgb(112, 0, 156)) rgb(112, 0, 156);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.button-reg {
+  width: 300px;
+  height: 45px;
+  border-radius: 8px;
+  background: linear-gradient(rgb(167, 72, 255), rgb(112, 0, 156)) rgb(112, 0, 156);
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.button-reg:hover {
+  background: rgb(112, 0, 156);
+}

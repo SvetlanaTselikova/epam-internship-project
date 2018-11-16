@@ -1,0 +1,47 @@
+input {
+  width: 300px;
+  height: 45px;
+	font-size: 24px;
+	padding: 6px 10px 4px 10px;
+	border: 1px solid  #8B8B83;
+	background: #F6F6f6;
+  border-radius: 8px;
+  color: #4F4F4F; 
+  margin-top: 12px;
+  display: block;
+  box-sizing: border-box;
+}
+
+input[type=date] {
+  font-size: 22px;
+}
+
+input[type=date]::-webkit-inner-spin-button { 
+  display: none; 
+}
+
+::-webkit-calendar-picker-indicator { 
+  margin-left: 4px; 
+}
+
+input:focus {
+  background: rgb(243, 226, 243);
+}
+
+input:invalid {
+ background: #FA8072;
+}
+
+.input-block {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+  height:85px;
+}
+
+.input__error {
+  color: red;
+}
